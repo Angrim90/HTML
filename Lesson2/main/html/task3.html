@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--В файле task3.html необходимо сверстать форму как на изображении forms_hw.png!-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name = "general_info" action="#">Name
+    <br>
+    <input type="text" name ="Name" label = "Name"><br>
+    Email<br>
+    <input type="email" name ="Email" label = "Email"><br>
+    <b>Sex</b><br>
+    <input type="radio" name = "sex" label = "Male"> Male
+    <input type="radio" name = "sex" label = Female"> Female<br>
+   <b>Current status</b><br>
+    <input type="checkbox" name="status" aria-label="Student">Student<br>
+    <input type="checkbox" name="status" aria-label="Employed">Employed<br>
+    <input type="checkbox" name="status" aria-label="Unemployed">Unemployed<br>
+
+    <p><b>Month and Year of birth</b><br>
+        <select name="month_of_birth">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select></p>
+    <input type="number" name="year_of_birth" value="1984" max="2018"
+           min="1900" placeholder="1900"/></p>
+    <table border ="1" > <b>Skills and Technologies</b><br>
+<tr ><td >
+
+        <ul type="none">
+            <li><b>Tech skills</b>
+                <ul type="none">
+                    <li ><abbr title="Hyper Text Markup Language"> HTML</abbr></li>
+                    <li><abbr title="Style Sheet">CSS</abbr> </li>
+                    <li>JavaScript</li>
+                     <li>git</li></li>
+                 </ul>
+            <li><b>Soft skills</b>
+            <ul type ="none">
+                <li>Time management</li>
+                <li>Proactivity</li>
+                <li>Teamwork</li>
+                <li>Leadership</li>
+            </ul>
+        </li>
+        </ul>
+
+    </td></tr>
+    </table><br>
+    <b>Photo</b><br>
+    <input type="file" name = "photo" value="Choose file"><br>
+    <b>Comments</b><br>
+    <textarea rows = "4" cols = "20"></textarea><br><br>
+    <input type="submit" name="save" value="save"><br>
+    <input type="reset" value="reset">
+    </form>
+
+</body>
+</html>
